@@ -1,0 +1,57 @@
+.folder-tree {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.folder-tree h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.folder-item {
+  margin-left: 0;
+}
+
+.folder-header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.folder-header:hover {
+  background-color: var(--bg-secondary);
+}
+
+.folder-icon {
+  margin-right: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.folder-name {
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.folder-content {
+  margin-left: 16px;
+  margin-top: 4px;
+}
+
+.file-item {
+  padding: 6px 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 2px 0;
+}
+
+.file-item:hover {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}

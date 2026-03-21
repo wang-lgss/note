@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "一个功能完整的笔记应用，支持文件夹分类、全文搜索、Markdown 编辑和 AI 补全",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "npm run start:backend & npm run start:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "notes",
+    "markdown",
+    "ai",
+    "claude",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}

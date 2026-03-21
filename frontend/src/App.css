@@ -1,0 +1,74 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: var(--bg-secondary);
+}
+
+.sidebar {
+  width: 300px;
+  background-color: var(--bg-primary);
+  border-right: 1px solid var(--border-color);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 40px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.settings-icon-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-icon-btn:hover {
+  background-color: var(--bg-secondary);
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.notes-panel {
+  width: 250px;
+  background-color: var(--bg-primary);
+  border-right: 1px solid var(--border-color);
+  overflow-y: auto;
+}
+
+.editor-panel {
+  flex: 1;
+  background-color: var(--bg-primary);
+  overflow-y: auto;
+}
+
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-tertiary);
+  font-size: 18px;
+}
